@@ -1,0 +1,99 @@
+nav {
+  margin: 0 5vw;
+  padding: 1rem;
+}
+header {
+  height: 100vh;
+  background: red;
+}
+main {
+  clear: both;
+  position: relative;
+}
+section {
+  box-sizing: border-box;
+  padding: 70px 0;
+  min-height: 100vh;
+}
+table {
+  border: 1px solid rgb(107, 48, 48);
+  border-radius: 15px;
+  overflow: hidden;
+}
+tbody {
+  border: 1px solid rgb(107, 48, 48);
+}
+thead {
+  background: #51ad89;
+  color: white;
+}
+h2 {
+  color: #51ad89;
+}
+
+.outer {
+  margin-top: 100px;
+  position: relative;
+  height: 150px;
+  border: 1px solid grey;
+  border-radius: 15px;
+  box-sizing: border-box;
+  transition: 0.3s ease-in-out;
+  display: flex;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.outer p {
+  margin-top: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+.inner {
+  background: lightblue;
+  position: absolute;
+
+  border-radius: 15px;
+
+  height: 150px;
+  transform: translateX(-50px) translateY(-50px);
+  transition: 0.3s ease-in-out;
+}
+
+.inner:hover {
+  transform: translateX(-50px) translateY(-50px) scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+.inner img:hover {
+  transform: scale(1.1);
+  overflow: hidden;
+}
+.inner-right {
+  transform: translateX(50px) translateY(-50px);
+  transition: 0.3s ease-in-out;
+}
+.inner-right:hover {
+  transform: translateX(50px) translateY(-50px) scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+.my-table {
+  margin: auto;
+}
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  .outer {
+    height: 300px;
+  }
+  .inner {
+    height: 300px;
+  }
+}
+
+@media (min-width: 1200px) {
+}
