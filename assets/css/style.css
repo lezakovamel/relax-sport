@@ -100,6 +100,9 @@ footer hr {
   padding: 0;
   background-color: #51ad8a50 !important;
 }
+.row {
+  margin: 0 !important;
+}
 .stats {
   background-color: #358c922f;
   background-image: url(/assets/vectors/blob-bg-1.svg),
@@ -211,7 +214,7 @@ footer hr {
 .pool-content {
   margin-top: 50px;
   box-sizing: border-box;
-  padding: 50px !important;
+  padding: 20px !important;
   line-height: 1.5rem;
   width: 100%;
   border-radius: 15px;
@@ -566,6 +569,9 @@ a {
   #wave-2-down {
     transform: translateY(150px);
     bottom: 0;
+  }
+  .pool-content {
+    padding: 50px !important;
   }
 }
 
