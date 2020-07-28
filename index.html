@@ -15,6 +15,10 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
+    <link
+      href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
 
     <title>Hello, world!</title>
@@ -63,14 +67,14 @@
           <div class="carousel-item">
             <img
               class="d-block w-100"
-              src="/assets/img/124-hv.jpg"
+              src="/assets/img/124-hv-min.jpg"
               alt="Second slide"
             />
           </div>
           <div class="carousel-item">
             <img
               class="d-block w-100"
-              src="/assets/img/132-hv.jpg"
+              src="/assets/img/132-hv-min.jpg"
               alt="Third slide"
             />
           </div>
@@ -113,8 +117,8 @@
                 </p>
               </div>
             </div>
-            <div class="col-12 offset-lg-1 col-lg-7">
-              <div class="my-table">
+            <div class="col-12 offset-lg-1 col-lg-7 align-self-center">
+              <div class="my-table align-self-center">
                 <table class="table table-hover .table-bordered">
                   <thead>
                     <tr>
@@ -152,7 +156,7 @@
             <div class="col-12 col-md-6">
               <div class="outer col-8 col-lg-10">
                 <div class="inner col col-lg-12">
-                  <img src="/assets/img/101-hv.jpg" />
+                  <img src="/assets/img/101-hv-min.jpg" />
                 </div>
                 <p>Výhled, který stojí za to.</p>
               </div>
@@ -169,7 +173,7 @@
         </section>
       </div>
       <div class="container-fluid">
-        <section class="pool-section">
+        <section class="pool-section" id="pool-section">
           <div class="pool-bg">
             <div class="wave wave-1 wave-mobile" id="wave-1-up">
               <img class="wave-img" src="/assets/vectors/wave-1-up.svg" />
@@ -177,7 +181,71 @@
             <div class="wave wave-2 wave-mobile" id="wave-2-up">
               <img class="wave-img" src="/assets/vectors/wave-2-up.svg" />
             </div>
-            <div class="wave-content"><img src="/assets/img/132-hv.jpg" /></div>
+            <div class="wave-content">
+              <img src="/assets/img/132-hv-min.jpg" />
+            </div>
+            <div class="wave-upper-content">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 col-md-12 col-lg-6">
+                    <div class="my-table pool-table align-self-center">
+                      <table class="table table-hover .table-bordered">
+                        <thead>
+                          <tr>
+                            <th scope="col">INFINITY BAZÉN</th>
+                            <th scope="col">CELODENNÍ</th>
+                            <th scope="col">OD 16:00</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">dospělý</th>
+                            <td>80 Kč</td>
+                            <td>40 Kč</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">dítě do 12ti let</th>
+                            <td>60 Kč</td>
+                            <td>30 Kč</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">dítě do 3 let</th>
+                            <td>30 Kč</td>
+                            <td>10 Kč</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">půjčení lehátka</th>
+                            <td>50 Kč</td>
+                            <td>-</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-12 offset-lg-1 col-lg" id="parent">
+                    <div class="pool-content padding" id="pool-content">
+                      <h2 class="text-center">VENKOVNÍ INFINITY BAZÉN</h2>
+                      <hr class="my-hr" />
+                      <p class="text-justify">
+                        Za hotelem u startu přírodní vodní skluzavky jsme pro
+                        Vás vybudovali celonerezový venkovní bazén s infinity
+                        hranou! Bazén má rozměry 12x5m. Nově se také u bazénu a
+                        přilehlého startu již zmiňované skluzavky nachází
+                        občerstvovací bufet, kde zaženete žízeň i potěšíte své
+                        chuťové pohárky. Samozřejmostí je převlékárna, sprchy a
+                        sociální zařízení. Pokud se tedy v letošním roce
+                        nechcete tlačit na přeplněných velkých koupalištích –
+                        vodní skluzavka společně s novým bazénem na Hotelu Vega
+                        je pro Vás to pravé ořechové! Průzračná voda, vodní
+                        skluzavka, dokonalý výhled, nádherná příroda a vše
+                        potřebné na jednom místě – To je tip pro letošní vodní
+                        radovánky.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div class="wave wave-1 wave-mobile" id="wave-1-down">
               <img class="wave-img" src="/assets/vectors/wave-1-down.svg" />
             </div>
@@ -188,7 +256,9 @@
         </section>
         <section class="section-fit">
           <div class="row">
-            <div class="col my-auto">
+            <div
+              class="offset-1 offset-sm-1 col-10 offset-lg-3 col-lg-6 my-auto padding"
+            >
               <h1>
                 Nejste příznivci vody, ale sport máte rádi? Tam u nás na kopci
                 to není problém.
@@ -198,7 +268,7 @@
           <div class="row light-blue-bg padding">
             <div class="container">
               <div class="row">
-                <div class="col-12 colm-md-6 col-lg-4 my-auto">
+                <div class="col-12 col-md-4 col-lg-4 my-auto">
                   <div>
                     <img
                       src="/assets/vectors/sport-icon-1.svg"
@@ -213,7 +283,7 @@
                     </p>
                   </div>
                 </div>
-                <div class="col-12 colm-md-6 col-lg-4 my-auto">
+                <div class="col-12 col-md-4 col-lg-4 my-auto">
                   <div>
                     <img
                       src="/assets/vectors/sport-icon-1.svg"
@@ -228,7 +298,7 @@
                     </p>
                   </div>
                 </div>
-                <div class="col-12 colm-md-6 col-lg-4 my-auto">
+                <div class="col-12 col-md-4 col-lg-4 my-auto">
                   <div>
                     <img
                       src="/assets/vectors/sport-icon-1.svg"
@@ -250,7 +320,7 @@
           <div class="row dark-blue-bg padding">
             <div class="container">
               <div class="row">
-                <div class="col-12 colm-md-6 col-lg-4 my-auto">
+                <div class="col-12 col-md-4 col-lg-4 my-auto">
                   <div>
                     <img
                       src="/assets/vectors/sport-icon-1.svg"
@@ -265,7 +335,7 @@
                     </p>
                   </div>
                 </div>
-                <div class="col-12 colm-md-6 col-lg-4 my-auto">
+                <div class="col-12 col-md-4 col-lg-4 my-auto">
                   <div>
                     <img
                       src="/assets/vectors/sport-icon-1.svg"
@@ -280,7 +350,7 @@
                     </p>
                   </div>
                 </div>
-                <div class="col-12 colm-md-6 col-lg-4 my-auto">
+                <div class="col-12 col-md-4 col-lg-4 my-auto">
                   <div>
                     <img
                       src="/assets/vectors/sport-icon-1.svg"
@@ -303,21 +373,54 @@
     </main>
     <footer>
       <div class="container">
-        <div class="row padding">
+        <div class="row padding-top-btm">
           <div class="col">
-            <h1>KONTAKT</h1>
             <div class="row">
-              <div class="col-12 col-md-6 text-center">
-                <h2>ADRESA</h2>
-                <p>Hotel Vega s.r.o</p>
-                <p>Pozlovice 99</p>
-                <p>Luhačovice 763 26</p>
+              <div class="col-12 col-md-6 col-lg-5 text-center contact">
+                <div class="contact-wrapper about">
+                  <h2>O hotelu</h2>
+                  <hr />
+                  <p>
+                    Na rozdíl od jiných hotelů v mikroregionu luhačovické
+                    přehrady, Luhačovic a Pozlovic, bylo pro stavbu hotelu Vega
+                    vybráno místo nahoře, nad přehradou, na svazích pod
+                    Komoncem, místo s romantickými výhledy nerušenými okolní
+                    zástavbou, místo tiché a klidné bez dopravního hlomozu a
+                    městského hluku, místo bezpečné i pro nejmenší děti.
+                  </p>
+                </div>
               </div>
-              <div class="col-12 col-md-6 text-center">
-                <h2>ZKONTAKTUJTE NÁS</h2>
-                <p>+420 777 777 777</p>
-                <p>hotelvega@hotelvega.cz</p>
-                <p>www.hotelvega.cz</p>
+              <div class="col-12 col-md-3 col-lg-3 text-center contact">
+                <div class="contact-wrapper">
+                  <h2>ADRESA</h2>
+                  <hr />
+                  <p>Hotel Vega s.r.o</p>
+                  <p>Pozlovice 99</p>
+                  <p>Luhačovice 763 26</p>
+                </div>
+              </div>
+              <div class="col-12 col-md-3 col-lg-4 text-center contact">
+                <div class="contact-wrapper">
+                  <h2>KONTAKT</h2>
+                  <hr />
+
+                  <p>
+                    <span class="contact-icons"><i class="icon-phone"></i></span
+                    >+420 777 777 777
+                  </p>
+                  <p>
+                    <span class="contact-icons"
+                      ><i class="icon-envelope-alt"></i></span
+                    >hotelvega@hotelvega.cz
+                  </p>
+                  <p>
+                    <a href="wwww.hotelvega.cz">
+                      <span class="contact-icons"
+                        ><i class="icon-globe"></i></span
+                      >www.hotelvega.cz
+                    </a>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -325,12 +428,20 @@
       </div>
 
       <hr />
-      <div class="row padding justify-content-center">
+      <div class="row padding-top-btm justify-content-center">
         <div class="col-12 col-md-4 text-center">
-          <h2>SOCIÁLNÍ SÍTĚ</h2>
-          <p>></p>
-          <p>></p>
-          <p>></p>
+          <h2 class="dark-blue-text">SOCIÁLNÍ SÍTĚ</h2>
+          <hr class="social-icons-hr" />
+          <a
+            href="https://www.facebook.com/venkovnibazenhotelvega"
+            class="social-icons"
+            ><i class="icon-facebook-sign"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/hotelvegaluhacovice/"
+            class="social-icons"
+            ><i class="icon-instagram"></i>
+          </a>
         </div>
       </div>
       <div class="container-fluid">
@@ -345,23 +456,10 @@
               scrolling="no"
               marginheight="0"
               marginwidth="0"
-            ></iframe
-            ><a href="https://123movies-to.org">123movies</a>
+            ></iframe>
+
+            <a href="https://123movies-to.org">123movies</a>
           </div>
-          <style>
-            .mapouter {
-              position: relative;
-              text-align: right;
-              height: 500px;
-              width: 1920px;
-            }
-            .gmap_canvas {
-              overflow: hidden;
-              background: none !important;
-              height: 500px;
-              width: 1920px;
-            }
-          </style>
         </div>
       </div>
       <div class="row my-footer my-auto">
