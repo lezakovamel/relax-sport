@@ -67,11 +67,25 @@ thead {
   background: #51ad89;
   color: white;
 }
+table th {
+  font-size: 0.8rem !important;
+  text-transform: uppercase;
+}
+table th,
+table td {
+  vertical-align: middle !important;
+}
+table th > *,
+table td > * {
+  vertical-align: middle !important;
+}
 table th:not(:first-child) {
   text-align: center;
 }
 table td {
+  font-size: 0.8rem !important;
   text-align: center;
+  font-weight: bolder;
 }
 h1 {
   margin-top: 2rem;
@@ -127,13 +141,24 @@ footer hr {
 .stats p {
   font-size: 3rem;
 }
-
+.stats div img {
+  display: flex;
+  flex-direction: column;
+}
+.weather-icons {
+  margin: 0 auto 2rem auto;
+  width: 80px;
+  height: auto;
+}
 .section-fit {
   padding: 0;
   min-height: fit-content;
 }
 .slide-section {
   min-height: fit-content;
+}
+.table-slide {
+  margin-top: 50px !important;
 }
 .my-auto * {
   display: flex;
@@ -530,6 +555,9 @@ a {
   table {
     margin-top: 0px;
     margin-bottom: 0px;
+  }
+  .table {
+    margin-top: 0 !important;
   }
   .outer {
     height: 300px;
