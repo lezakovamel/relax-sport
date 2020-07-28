@@ -21,25 +21,43 @@
     />
     <link rel="stylesheet" href="assets/css/style.css" />
 
-    <title>Hello, world!</title>
+    <title>Hotel Vega - relax sport</title>
   </head>
 
   <body>
-    <nav>
-      <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="my-nav">
+      <a class="navbar-brand" href="#"
+        ><img src="/assets/vectors/hotel-vega-logo.svg" class="logo" id="logo"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Venkovní areál <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Vnitřní areál</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">O hotelu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kontakty</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <header>
       <div
@@ -100,6 +118,18 @@
       </div>
     </header>
     <main>
+      <div class="container-fluid">
+        <div class="row stats">
+          <div class="col">
+            <h3>vzduch</h3>
+            <p>30 °C</p>
+          </div>
+          <div class="col">
+            <h3>bazén</h3>
+            <p>30 °C</p>
+          </div>
+        </div>
+      </div>
       <div class="container">
         <section class="slide-section">
           <div class="row padding-top">

@@ -52,3 +52,15 @@ function getHeight() {
 }
 document.addEventListener("DOMContentLoaded", getHeight);
 document.addEventListener("resize", getHeight);
+
+window.onscroll = function () {
+  headerSize();
+};
+
+function headerSize() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("my-nav").classList.add("my-nav");
+  } else {
+    document.getElementById("my-nav").classList.remove("my-nav");
+  }
+}
