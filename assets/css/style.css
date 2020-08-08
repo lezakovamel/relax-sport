@@ -364,7 +364,34 @@ footer hr {
   width: auto;
   margin: 2rem 0 2rem 0;
 }
+.my-btn-dark {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  border-radius: 25px !important;
+  border-width: 2px;
+}
 
+.my-btn-dark a {
+  text-decoration: none;
+}
+.my-btn-dark a:hover {
+  color: white;
+}
+
+.my-btn {
+  margin-top: 20px;
+  border-radius: 25px !important;
+  border-width: 2px;
+}
+.my-btn a {
+  color: white;
+}
+.my-btn a:hover {
+  color: #054c51;
+  text-decoration: none;
+}
 .my-footer {
   height: 100px;
   box-sizing: border-box;
