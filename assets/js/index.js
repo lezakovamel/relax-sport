@@ -64,3 +64,8 @@ function headerSize() {
     document.getElementById("my-nav").classList.remove("my-nav");
   }
 }
+
+window.addEventListener("load", function () {
+  const loader = document.querySelector(".loader");
+  loader.className += " hidden"; // class "loader hidden"
+});

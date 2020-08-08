@@ -1,0 +1,107 @@
+.section-con {
+  background-image: url(/assets/img/108-vw-min.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+.section-con .container {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.contact-desktop {
+  display: none;
+}
+.contact-text {
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(15px);
+  color: white;
+  background-color: #054c51;
+  mix-blend-mode: luminosity;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 70px;
+  z-index: 30;
+}
+.contact-text p a {
+  color: white !important;
+  font-weight: normal !important;
+}
+.contact-text span {
+  font-size: 1rem;
+}
+.contact-text p a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+.contact-text h3 {
+  margin: 1rem 0;
+  text-align: left !important;
+}
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (max-width: 992px) {
+}
+@media (min-width: 992px) {
+  .section-con {
+    display: none;
+  }
+  .contact-desktop {
+    background-image: url(/assets/img/108-vw-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+    flex-direction: row;
+    display: flex;
+    position: relative;
+  }
+
+  .contact-left,
+  .contact-right {
+    display: block;
+    width: 50%;
+    position: relative;
+  }
+  .contact-overlay {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    mix-blend-mode: soft-light;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease;
+  }
+  .con-text {
+    color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .con-text a,
+  .con-text p,
+  .con-text span {
+    color: white;
+  }
+  .contact-left:hover .contact-overlay,
+  .contact-right:hover .contact-overlay {
+    bottom: 100%;
+    height: 0%;
+  }
+}
+
+@media (min-width: 1200px) {
+}

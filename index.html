@@ -7,7 +7,11 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="https://www.hotelvega.cz/images/favicon.png"
+    />
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -26,6 +30,9 @@
   </head>
 
   <body>
+    <div class="loader">
+      <img src="loading.gif" alt="Loading..." />
+    </div>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="my-nav">
       <a class="navbar-brand" href="#"
         ><img src="/assets/vectors/hotel-vega-logo.svg" class="logo" id="logo"
@@ -49,13 +56,13 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Vnitřní areál</a>
+            <a class="nav-link" href="interior.html">Vnitřní areál</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html">O hotelu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Kontakty</a>
+            <a class="nav-link" href="contact.html">Kontakty</a>
           </li>
         </ul>
       </div>
@@ -135,7 +142,7 @@
       </div>
       <div class="container">
         <section class="slide-section">
-          <div class="row padding-top">
+          <div class="row padding-top" data-aos="fade-up">
             <div class="col-12 col-lg-4">
               <div class="d-flex flex-column justify-content-center">
                 <h2>VODNÍ SKLUZAVKA</h2>
@@ -206,7 +213,7 @@
         </section>
       </div>
       <div class="container-fluid">
-        <section class="pool-section" id="pool-section">
+        <section class="pool-section" id="pool-section" data-aos="fade-right">
           <div class="pool-bg">
             <div class="wave wave-1 wave-mobile" id="wave-1-up">
               <img class="wave-img" src="/assets/vectors/wave-1-up.svg" />
@@ -217,9 +224,9 @@
             <div class="wave-content">
               <img src="/assets/img/132-hv-min.jpg" />
             </div>
-            <div class="wave-upper-content">
+            <div class="wave-upper-content" data-aos="fade-left">
               <div class="container">
-                <div class="row">
+                <div class="row" data-aos="fade-up">
                   <div class="col-12 col-md-12 col-lg-6">
                     <div class="my-table pool-table align-self-center">
                       <table class="table table-hover .table-bordered">
@@ -308,11 +315,12 @@
                       class="sport-icon"
                     />
                     <p>
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Integer rutrum, orci vestibulum ullamcorper ultricies,
-                      lacus quam ultricies odio, vitae placerat pede sem sit
-                      amet enim. In dapibus augue non sapien. Nullam sit amet
-                      magna in magna gravida vehicula
+                      Přímo za hotelem se ve stínu stromů rozprostírá
+                      minigolfové hřiště. Na celkem 9 jamkách si můžou otestovat
+                      svůj um a zároveň se pobavit všechny generace. Na recepci
+                      Vám zapůjčíme klasické hole i hole dětské. K dispozici
+                      také dostanete kartičku výsledků, ať můžete zjistit kdo se
+                      stal šampionem.
                     </p>
                     <button
                       type="button"
@@ -330,11 +338,13 @@
                       class="sport-icon"
                     />
                     <p>
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Integer rutrum, orci vestibulum ullamcorper ultricies,
-                      lacus quam ultricies odio, vitae placerat pede sem sit
-                      amet enim. In dapibus augue non sapien. Nullam sit amet
-                      magna in magna gravida vehicula
+                      Ve spodní části hotelových zahrad je pro Vás připraven
+                      putting green s golfovým odpalištěm. Možná si myslíte, že
+                      golf jako takový, je sportem pouze pro horních deset tisíc
+                      obyvatel, neboli boháče, ale opak je pravdou! Proč tedy
+                      nezbourat klišé, které panuje a užít si golfový zážitek
+                      přímo v srdci Bílých Karpat, obklopeni čistou přírodou.
+                      Rádi Vám poskytneme veškeré vybavení.
                     </p>
                     <button
                       type="button"
@@ -352,11 +362,12 @@
                       class="sport-icon"
                     />
                     <p>
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Integer rutrum, orci vestibulum ullamcorper ultricies,
-                      lacus quam ultricies odio, vitae placerat pede sem sit
-                      amet enim. In dapibus augue non sapien. Nullam sit amet
-                      magna in magna gravida vehicula
+                      Písčité pláže jako u moře Vám sice nenabídneme, ale
+                      nabídnout Vám můžeme jako jedni z mála v okolí beach
+                      volejbalové hřiště. Stačí tedy sehnat partů přátel a s
+                      elánem dorazit k nám na hotel! Volejbalový míč můžete
+                      nechat doma a půjčit si náš. A aby jste si písek nedonesli
+                      až domů, samozřejmostí je využití našich šaten a sprch.
                     </p>
                     <button
                       type="button"
@@ -381,11 +392,14 @@
                       class="sport-icon"
                     />
                     <p>
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Integer rutrum, orci vestibulum ullamcorper ultricies,
-                      lacus quam ultricies odio, vitae placerat pede sem sit
-                      amet enim. In dapibus augue non sapien. Nullam sit amet
-                      magna in magna gravida vehicula
+                      Přímo před hotelem se nachází unikátní tenisový kurt.
+                      Unikátní není ani tak svým umělým povrchem s křemičitým
+                      pískem, ale hlavně opravdu luxusním výhledem do údolí
+                      Luhačovické přehrady. Dvouhra nebo čtyřhra to záleží na
+                      Vás. Jistě Vás také potěší, že v těsné blízkosti kurtu se
+                      nachází venkovní terasa naší hotelové restaurace, takže
+                      jako zaslouženou odměnu po sportovním výkonu si můžete
+                      vychutnat jedno orošené. Nebo klidně dvě.
                     </p>
                     <button
                       type="button"
@@ -403,11 +417,12 @@
                       class="sport-icon"
                     />
                     <p>
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Integer rutrum, orci vestibulum ullamcorper ultricies,
-                      lacus quam ultricies odio, vitae placerat pede sem sit
-                      amet enim. In dapibus augue non sapien. Nullam sit amet
-                      magna in magna gravida vehicula
+                      Máte rádi fotbal? Ano? Co takhle si zahrát na hřišti, na
+                      kterém hrála Česká reprezentace do 21 let, FC Baník
+                      Ostrava nebo FK Třinec? Ano na našem atypickém hřišti
+                      (70x20m) i zahrály i takové hvězdy a zahrát si můžete i
+                      vy! Udržovaný zavlažovaný trávník Vám poskytne kvalitní
+                      hru nebo trénink téměř vždy – tedy než napadne sníh.
                     </p>
 
                     <button
@@ -426,11 +441,17 @@
                       class="sport-icon"
                     />
                     <p>
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                      Integer rutrum, orci vestibulum ullamcorper ultricies,
-                      lacus quam ultricies odio, vitae placerat pede sem sit
-                      amet enim. In dapibus augue non sapien. Nullam sit amet
-                      magna in magna gravida vehicula
+                      Pokud už zavítáte na hotel Vega, je určitě potřeba
+                      vyzkoušet si nepřeberné množství značených cyklotras.
+                      Cyklotrasy jsou rozděleny do různých úrovní náročnosti a
+                      díky tomu si svou trasu vybere opravdu každý. Máte rádi
+                      přírodu nebo raději pevné asfaltové povrchy? Cyklostezky
+                      Vás umí zavést jak do centra Luhačovic, tak Vás dokáží
+                      provést hustým lesem až ke zříceninám hradu Komonce.
+                      Nemáte vlastní kolo? Nevadí! Rád Vám zapůjčíme plně
+                      servisovaná horská kola pro děti i dospělé. A pokud
+                      plánujete výlet třeba jen na přehradu, můžete si zapůjčit
+                      naše zbrusu nové koloběžky.
                     </p>
                     <button
                       type="button"
