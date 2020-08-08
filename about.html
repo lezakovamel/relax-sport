@@ -19,6 +19,7 @@
       href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/about.css" />
 
@@ -26,7 +27,6 @@
   </head>
 
   <body>
-    
     <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="my-nav">
       <a class="navbar-brand" href="#"
         ><img src="/assets/vectors/hotel-vega-logo.svg" class="logo" id="logo"
@@ -64,20 +64,26 @@
     <header></header>
     <main>
       <div class="container-fluid">
-        <div class="about-photo">
-          <div class="row about-row">
+        <div class="about-photo aos-overflow">
+          <div class="row about-row" data-aos="fade-left">
             <div class="offset-2 col-10 offset-lg-4 col-lg-8 about-col">
-              <h1>HOTEL </br> VEGA</h1>
+              <h1>
+                HOTEL <br />
+                VEGA
+              </h1>
               <img src="/assets/img/142-hv-min.jpg" />
             </div>
           </div>
         </div>
-        <section class="loc-section">
+        <section class="loc-section aos-overflow">
           <div class="loc-absolute">
-            <div class="row">
-              <div class="offset-4 col-8 offset-md-7 col-md-5 loc-text">
-                <h1>LOKALITA HOTELU VEGA</h1>
-                <p>
+            <div class="row aos-overflow">
+              <div
+                class="offset-4 col-8 offset-md-7 col-md-5 loc-text"
+                data-aos="fade-up"
+              >
+                <h1 data-aos="fade-up">LOKALITA HOTELU VEGA</h1>
+                <p data-aos="fade-up">
                   Na rozdíl od jiných hotelů v mikroregionu luhačovické
                   přehrady, Luhačovic a Pozlovic, bylo pro stavbu hotelu Vega
                   vybráno místo nahoře, nad přehradou, na svazích pod Komoncem,
@@ -85,13 +91,17 @@
                   místo tiché a klidné bez dopravního hlomozu a městského hluku,
                   místo bezpečné i pro nejmenší děti.
                 </p>
-                <button type="button" class="btn btn-outline-dark my-btn-dark">
+                <button
+                  type="button"
+                  class="btn btn-outline-dark my-btn-dark"
+                  data-aos="fade-up"
+                >
                   <a href="#">Více informací →</a>
                 </button>
               </div>
             </div>
           </div>
-          <div class="row loc-row">
+          <div class="row loc-row" data-aos="fade-right">
             <div class="loc">
               <div class="row">
                 <div class="offset-1 col-10 no-padding">
@@ -103,20 +113,20 @@
             </div>
           </div>
         </section>
-        <section class="history-section">
+        <section class="history-section aos-overflow">
           <div class="row">
             <div class="history">
-              <div class="row">
+              <div class="row" data-aos="fade-right">
                 <div class="col-12 offset-md-3 col-md-9 no-padding">
                   <img src="/assets/img/215-hv-min.jpg" />
                 </div>
               </div>
 
-              <div class="history-relative">
+              <div class="history-relative" data-aos="fade-left">
                 <div class="row">
                   <div class="col-9 col-md-7 col-lg-5 history-text">
-                    <h1>HISTORIE HOTELU</h1>
-                    <p>
+                    <h1 data-aos="fade-up">HISTORIE HOTELU</h1>
+                    <p data-aos="fade-up">
                       Na rozdíl od jiných hotelů v mikroregionu luhačovické
                       přehrady, Luhačovic a Pozlovic, bylo pro stavbu hotelu
                       Vega vybráno místo nahoře, nad přehradou, na svazích pod
@@ -127,6 +137,7 @@
                     <button
                       type="button"
                       class="btn btn-outline-dark my-btn-dark"
+                      data-aos="fade-up"
                     >
                       <a href="#">Více informací →</a>
                     </button>
@@ -251,9 +262,11 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="assets/js/index.js"></script>
     <script>
       $(".carousel").carousel();
+      AOS.init();
     </script>
   </body>
 </html>
