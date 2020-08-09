@@ -31,6 +31,13 @@
   </head>
 
   <body>
+    <div class="loader">
+      <img
+        src="/assets/vectors/hotel-vega-logo.svg"
+        class="loader-logo"
+        alt="Loading..."
+      />
+    </div>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="my-nav">
       <a class="navbar-brand" href="#"
         ><img src="/assets/vectors/hotel-vega-logo.svg" class="logo" id="logo"
@@ -119,7 +126,7 @@
             </div>
           </div>
         </section>
-        <section class="history-section aos-overflow">
+        <section class="history-section aos-overflow" id="history-section">
           <div class="row">
             <div class="history">
               <div class="row" data-aos="fade-right">
@@ -130,7 +137,10 @@
 
               <div class="history-relative" data-aos="fade-left">
                 <div class="row">
-                  <div class="col-9 col-md-7 col-lg-5 history-text">
+                  <div
+                    class="col-9 col-md-7 col-lg-5 history-text"
+                    id="history-text"
+                  >
                     <h1 data-aos="fade-up">HISTORIE HOTELU</h1>
                     <p data-aos="fade-up">
                       Na rozdíl od jiných hotelů v mikroregionu luhačovické
@@ -163,7 +173,7 @@
           <div class="col">
             <div class="row">
               <div class="col-12 col-md-6 col-lg-5 text-center contact">
-                <div class="contact-wrapper about">
+                <div class="contact-wrapper about" data-aos="fade-up">
                   <h2>O hotelu</h2>
                   <hr />
                   <p>
@@ -177,7 +187,7 @@
                 </div>
               </div>
               <div class="col-12 col-md-3 col-lg-3 text-center contact">
-                <div class="contact-wrapper">
+                <div class="contact-wrapper" data-aos="fade-up">
                   <h2>ADRESA</h2>
                   <hr />
                   <p>Hotel Vega s.r.o</p>
@@ -186,7 +196,7 @@
                 </div>
               </div>
               <div class="col-12 col-md-3 col-lg-4 text-center contact">
-                <div class="contact-wrapper">
+                <div class="contact-wrapper" data-aos="fade-up">
                   <h2>KONTAKT</h2>
                   <hr />
 
@@ -200,7 +210,7 @@
                     >hotelvega@hotelvega.cz
                   </p>
                   <p>
-                    <a href="wwww.hotelvega.cz">
+                    <a href="https://www.hotelvega.cz/cs/">
                       <span class="contact-icons"
                         ><i class="icon-globe"></i></span
                       >www.hotelvega.cz
@@ -214,7 +224,10 @@
       </div>
 
       <hr />
-      <div class="row padding-top-btm justify-content-center">
+      <div
+        class="row padding-top-btm justify-content-center"
+        data-aos="fade-up"
+      >
         <div class="col-12 col-md-4 text-center">
           <h2 class="dark-blue-text">SOCIÁLNÍ SÍTĚ</h2>
           <hr class="social-icons-hr" />
@@ -243,8 +256,6 @@
               marginheight="0"
               marginwidth="0"
             ></iframe>
-
-            <a href="https://123movies-to.org">123movies</a>
           </div>
         </div>
       </div>

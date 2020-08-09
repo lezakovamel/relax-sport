@@ -23,7 +23,7 @@
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  padding: 70px;
+  padding: 40px;
   z-index: 30;
 }
 .contact-text p a {
@@ -100,6 +100,10 @@
   .contact-right:hover .contact-overlay {
     bottom: 100%;
     height: 0%;
+  }
+
+  .contact-text {
+    padding: 70px;
   }
 }
 

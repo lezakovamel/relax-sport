@@ -94,7 +94,10 @@ h1 {
   width: auto;
   overflow: hidden;
 }
-
+.history-section button,
+.loc-section button {
+  margin-bottom: 0;
+}
 .history-section {
   overflow: hidden;
   background-color: #ecf5f6;

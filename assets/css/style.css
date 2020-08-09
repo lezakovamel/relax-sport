@@ -18,6 +18,9 @@
 body {
   overflow-x: hidden !important;
 }
+.loader-logo {
+  filter: invert(0.5);
+}
 nav {
   box-sizing: border-box;
   background-color: rgba(255, 255, 255, 0.2) !important;
@@ -379,12 +382,23 @@ footer hr {
   border-radius: 25px !important;
   border-width: 2px;
 }
-
 .my-btn-dark a {
+  color: #343a40;
+}
+.my-btn,
+.my-btn-dark,
+.my-btn:hover,
+.my-btn-dark:hover,
+.my-btn a:hover,
+.my-btn-dark a:hover {
+  transition: 0.3s ease-in-out;
+}
+.my-btn-dark a,
+.my-btn a {
   text-decoration: none;
 }
-.my-btn-dark a:hover {
-  color: white;
+.my-btn-dark:hover a {
+  color: white !important;
 }
 
 .my-btn {
@@ -395,9 +409,12 @@ footer hr {
 .my-btn a {
   color: white;
 }
-.my-btn a:hover {
+.my-btn:hover a {
+  transition: 0.3s ease-in-out;
   color: #054c51;
-  text-decoration: none;
+}
+.my-btn:hover {
+  color: #054c51 !important;
 }
 .my-footer {
   height: 100px;
@@ -460,6 +477,8 @@ footer hr {
   margin: 2rem auto;
 }
 .contact {
+  margin-top: 20px;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -548,8 +567,16 @@ a {
   nav {
     padding: 2rem 5rem !important;
   }
+  .pool-content {
+    padding: 50px !important;
+  }
 }
-
+@media (max-width: 992px) {
+  .my-btn-dark,
+  .my-btn {
+    margin-bottom: 50px;
+  }
+}
 @media (min-width: 992px) {
   nav {
     transition: 0.3s ease-in-out;
@@ -566,6 +593,11 @@ a {
     background-color: rgba(255, 255, 255, 0.2) !important;
     padding: 1rem 5rem !important;
     backdrop-filter: blur(20px);
+  }
+  .my-nav:focus,
+  .my-nav img:focus,
+  .my-nav:focus img {
+    outline: none;
   }
   .logo {
     height: 60px !important;
@@ -632,9 +664,6 @@ a {
     transform: translateY(150px);
     bottom: 0;
   }
-  .pool-content {
-    padding: 50px !important;
-  }
 }
 
 @media (min-width: 1200px) {
@@ -667,7 +696,7 @@ a {
 }
 
 .loader > img {
-  width: 100px;
+  width: 200px;
 }
 
 .loader.hidden {

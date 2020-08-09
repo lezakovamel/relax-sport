@@ -51,6 +51,7 @@ function getHeight() {
   }
 }
 document.addEventListener("DOMContentLoaded", getHeight);
+
 document.addEventListener("resize", getHeight);
 
 window.onscroll = function () {
@@ -69,3 +70,6 @@ window.addEventListener("load", function () {
   const loader = document.querySelector(".loader");
   loader.className += " hidden"; // class "loader hidden"
 });
+
+$(".history-section").height($(".history-text").outerHeight());
+$(".loc-section").height($(".loc-absolute").outerHeight());

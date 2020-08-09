@@ -30,6 +30,13 @@
     <title>Hotel Vega - relax sport</title>
   </head>
   <body>
+    <div class="loader">
+      <img
+        src="/assets/vectors/hotel-vega-logo.svg"
+        class="loader-logo"
+        alt="Loading..."
+      />
+    </div>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="my-nav">
       <a class="navbar-brand" href="#"
         ><img src="/assets/vectors/hotel-vega-logo.svg" class="logo" id="logo"
@@ -103,7 +110,7 @@
       <section class="contact-desktop">
         <div class="contact-left">
           <div class="contact-overlay">
-            <div class="con-text">
+            <div class="con-text" data-aos="fade-up">
               <h3>ADRESA</h3>
               <p>Hotel Vega s.r.o</p>
               <p>Pozlovice 99</p>
@@ -113,7 +120,7 @@
         </div>
         <div class="contact-right">
           <div class="contact-overlay">
-            <div class="con-text">
+            <div class="con-text" data-aos="fade-up">
               <h3>KONTAKT</h3>
               <p>
                 <span class="contact-icons"><i class="icon-phone"></i></span
@@ -125,7 +132,7 @@
                 >hotelvega@hotelvega.cz
               </p>
               <p>
-                <a href="wwww.hotelvega.cz">
+                <a href="https://www.hotelvega.cz/cs/">
                   <span class="contact-icons"><i class="icon-globe"></i></span
                   >www.hotelvega.cz
                 </a>
@@ -148,8 +155,6 @@
             marginheight="0"
             marginwidth="0"
           ></iframe>
-
-          <a href="https://123movies-to.org">123movies</a>
         </div>
       </div>
       <div class="row my-footer my-auto">
@@ -175,6 +180,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/index.js"></script>
 
     <script>
       AOS.init();
