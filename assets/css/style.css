@@ -493,7 +493,6 @@ a {
 }
 .contact-wrapper {
   box-sizing: border-box;
-  padding: 0 20px;
 }
 .contact-wrapper p,
 h2,
@@ -575,6 +574,9 @@ a {
   .my-btn-dark,
   .my-btn {
     margin-bottom: 50px;
+  }
+  .pool-section {
+    padding: 0;
   }
 }
 @media (min-width: 992px) {
@@ -663,6 +665,9 @@ a {
   #wave-2-down {
     transform: translateY(150px);
     bottom: 0;
+  }
+  .contact-wrapper {
+    padding: 0 20px;
   }
 }
 

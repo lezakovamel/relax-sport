@@ -19,6 +19,10 @@
       integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX"
       crossorigin="anonymous"
     />
+    <link
+      href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/interior.css" />
 
@@ -66,8 +70,161 @@
         </ul>
       </div>
     </nav>
-    <header></header>
+    <header>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100"
+              src="/assets/img/396-kov-min.jpg"
+              alt="First slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="/assets/img/124-hv-min.jpg"
+              alt="Second slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="/assets/img/132-hv-min.jpg"
+              alt="Third slide"
+            />
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
     <main><section></section></main>
+    <footer>
+      <div class="container">
+        <div class="row padding-top-btm">
+          <div class="col">
+            <div class="row">
+              <div class="col-12 col-md-12 col-lg-5 text-center contact">
+                <div class="contact-wrapper about" data-aos="fade-up">
+                  <h2>O hotelu</h2>
+                  <hr />
+                  <p>
+                    Na rozdíl od jiných hotelů v mikroregionu luhačovické
+                    přehrady, Luhačovic a Pozlovic, bylo pro stavbu hotelu Vega
+                    vybráno místo nahoře, nad přehradou, na svazích pod
+                    Komoncem, místo s romantickými výhledy nerušenými okolní
+                    zástavbou, místo tiché a klidné bez dopravního hlomozu a
+                    městského hluku, místo bezpečné i pro nejmenší děti.
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 text-center contact">
+                <div class="contact-wrapper" data-aos="fade-up">
+                  <h2>ADRESA</h2>
+                  <hr />
+                  <p>Hotel Vega s.r.o</p>
+                  <p>Pozlovice 99</p>
+                  <p>Luhačovice 763 26</p>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 text-center contact">
+                <div class="contact-wrapper" data-aos="fade-up">
+                  <h2>KONTAKT</h2>
+                  <hr />
+
+                  <p>
+                    <span class="contact-icons"><i class="icon-phone"></i></span
+                    >+420 601 571 301
+                  </p>
+                  <p>
+                    <span class="contact-icons"
+                      ><i class="icon-envelope-alt"></i></span
+                    >hotelvega@hotelvega.cz
+                  </p>
+                  <p>
+                    <a href="https://www.hotelvega.cz/cs/">
+                      <span class="contact-icons"
+                        ><i class="icon-globe"></i></span
+                      >www.hotelvega.cz
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+      <div
+        class="row padding-top-btm justify-content-center"
+        data-aos="fade-up"
+      >
+        <div class="col-12 col-md-4 text-center">
+          <h2 class="dark-blue-text">SOCIÁLNÍ SÍTĚ</h2>
+          <hr class="social-icons-hr" />
+          <a
+            href="https://www.facebook.com/venkovnibazenhotelvega"
+            class="social-icons"
+            ><i class="icon-facebook-sign"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/hotelvegaluhacovice/"
+            class="social-icons"
+            ><i class="icon-instagram"></i>
+          </a>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe
+              width="100%"
+              height="500"
+              id="gmap_canvas"
+              src="https://maps.google.com/maps?q=pozlovice%2099&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="row my-footer my-auto">
+        <p>© 2020 Melanie Lezakova</p>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
