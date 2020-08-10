@@ -16,7 +16,7 @@
     0 10px 10px -5px rgba(5, 76, 81, 0.08);
 }
 .interior-icons {
-  max-height: 80px;
+  height: 80px;
 
   filter: invert(0.5);
   margin: 20px;
